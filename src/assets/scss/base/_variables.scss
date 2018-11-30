@@ -1,0 +1,35 @@
+$--color-white: #FFF !default;
+$--color-black: #060E14 !default;
+
+$--color-neutral-1: #6E767D !default;
+$--color-neutral-2: #A2ACB3 !default;
+$--color-neutral-3: #D5DCE0 !default;
+$--color-neutral-4: #F9F9FB !default;
+
+$--color-primary: #2E6C99 !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; // #437ba3
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; // #5889ad
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; // #6d98b8
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; // #82a7c2
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; // #97b6cc
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; // #abc4d6
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; // #c0d3e0
+$--color-primary-light-8: mix($--color-white, $--color-primary, 87%) !default; // #E3EBF1
+$--color-primary-light-9: mix($--color-white, $--color-primary, 93%) !default; // #F0F4F7
+
+$--color-secondary: #87BEE6 !default;
+
+$--color-label: #6E767D !default;
+
+$--color-success: #36B348 !default;
+$--color-warning: #FFAB20 !default;
+$--color-danger: #DE2F2F !default;
+$--color-info: $--color-neutral-1 !default;
+
+/* Break-point
+--------------------------*/
+$--sm: 768px !default;
+$--md: 992px !default;
+$--lg: 1200px !default;
+$--xl: 1920px !default;
+$--breakpoint-menu: $--md;
